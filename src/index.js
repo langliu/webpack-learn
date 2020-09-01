@@ -1,8 +1,5 @@
-import "./index.less";
+import './index.less';
 
-function sum(a, b) {
-  return a + b;
-}
+const sum = (a, b) => a + b;
 
-document.title = "哇哈哈";
 console.log(sum(12, 3334));
